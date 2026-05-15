@@ -1,0 +1,67 @@
+<html>
+<head>
+  <title>Cadastro</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="pagina-form">
+  <form>
+      <h1>Cadastro de Gato</h1>
+      <p class="titulo">Comece enviando as fotos do animalzinho</p>
+  
+    <label class="upload-box">
+      <input type="file" accept="image/*" multiple>
+      <span>Clique para selecionar imagens</span>
+    </label>
+  
+    <div class="grupo">
+      <label for="nome">Nome</label>
+      <input type="text" name="nome">
+
+      <label for="idade">Idade</label>
+      <input type="number" name="idade">
+
+      <label for="sexo">Sexo</label>
+      <input type="text" name="sexo">
+
+      <label for="raca">Raça</label>
+      <input type="text" name="raca">
+
+      <label for="raca">Pelagem</label>
+      <input type="text" name="pelagem">
+    </div>
+
+    <h2>Características</h2>
+
+    <div class="grupo">
+      <label>Cuidados Veterinários</label>
+      <div class="opcoes">
+        <label><input type="checkbox"> Castrado</label>
+        <label><input type="checkbox"> Vacinado</label>
+        <label><input type="checkbox"> Vermifugado</label>
+      </div>
+
+      <label>Temperamento</label>
+      <div class="opcoes">
+        <label><input type="checkbox"> Dócil</label>
+        <label><input type="checkbox"> Calmo</label>
+        <label><input type="checkbox"> Sociável</label>
+      </div>
+    
+      <label>Sociável com</label>
+      <div class="opcoes">
+        <label><input type="checkbox"> Gatos</label>
+        <label><input type="checkbox"> Cachorros</label>
+        <label><input type="checkbox"> Crianças</label>
+        <label><input type="checkbox"> Desconhecidos</label>
+        <label><input type="checkbox"> Idosos</label>
+      </div>
+  </div>
+
+    <button type="submit">Cadastrar</button>
+    <a href="index.html">Voltar</a>
+
+  </form>
+
+</body>
+</html>
